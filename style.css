@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0px;
+    padding: 30px 0px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #0984e3;
+    margin-bottom: 30px;
+}
+
+.projectLink {
+    padding: 10px 60px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: #2ecc71;
+    text-decoration: none;
+    color: white;
+    -webkit-box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.56); 
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.56);
+}
+
+.projectLink:hover {
+    background-color: #27ae60;
+}
